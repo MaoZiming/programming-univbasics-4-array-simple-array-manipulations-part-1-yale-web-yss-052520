@@ -27,5 +27,3 @@ def shift_with_args(array, number = 2)
     number -= 1
   end
 end
-
-  
