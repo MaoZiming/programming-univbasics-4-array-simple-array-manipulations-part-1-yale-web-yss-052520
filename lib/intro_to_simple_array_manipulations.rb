@@ -22,8 +22,5 @@ def using_shift (array)
 end
 
 def shift_with_args(array, number = 2)
-  while number >= 1 do
-    array.pop
-    number -= 1
-  end
+  array.pop(number)
 end
