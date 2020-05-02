@@ -11,10 +11,7 @@ def using_pop (array)
 end
 
 def pop_with_args (array, number = 2)
-  while number >= 1 do
-    array.pop
-    number -= 1
-  end
+  array.pop(number)
 end
 
 def using_shift (array)
